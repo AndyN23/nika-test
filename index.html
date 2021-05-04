@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/scss.css">
+    <title>Test Nika</title>
+</head>
+<body oncopy="return false;">
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__icon-phone">
+                    <a href="tel:#" class="icon-phone">
+                        <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.0389 22.0177L23.0309 22.0108C21.8932 20.8535 20.725 19.7302 19.5261 18.6413C19.5153 18.6318 19.5045 18.6222 19.4957 18.6127C19.2481 18.4042 18.9502 18.2575 18.6047 18.1727C18.122 18.0203 17.6481 18.0639 17.1838 18.3026C17.1582 
+                            18.3167 17.1342 18.3312 17.1086 18.3461C16.9282 18.4603 16.7595 18.5806 16.6027 18.7067V18.7135C15.9788 19.2211 15.3538 19.7283 14.7287 20.2363C13.2126 19.8024 11.8989 19.0378 10.7859 17.9416C10.0089 17.1835 9.38423 16.3371 8.91193 15.4021C8.65518 
+                            14.8961 8.42883 14.3915 8.23207 13.887C8.90913 13.1319 9.55099 12.36 10.1585 11.5717C10.1633 11.5629 10.1685 11.5561 10.1737 11.5499C10.3976 11.2528 10.5008 10.8987 10.484 10.4893C10.47 9.86294 10.2272 9.31983 9.75855 8.85883V8.85119C8.75116 7.87 
+                            7.73378 6.89836 6.7068 5.93626C6.7012 5.93129 6.6968 5.92671 6.6916 5.92175C5.87138 5.13954 4.91478 4.9016 3.82102 5.20791L3.83621 5.20027C3.47789 5.29461 3.13716 5.42447 2.81603 5.59023C2.77804 5.612 2.74005 5.63568 2.70325 5.66241C1.72026 6.36135 
+                            0.968026 7.20696 0.443738 8.2019L0.436939 8.21641C-0.024962 9.12122 -0.120142 10.0566 0.149001 11.0233V11.0156C0.66809 12.9494 1.38194 14.7987 2.29414 16.5632L2.30254 16.5705C3.15596 18.2021 4.17534 19.7253 5.36189 21.1377H5.36988C6.63481 22.6383 
+                            8.1101 23.9311 9.79654 25.0193L9.80454 25.0265C11.2686 25.9512 12.8175 26.6849 14.4503 27.2272H14.4423C15.8077 27.6905 17.2006 27.9472 18.6203 27.9991C18.7198 28.0026 18.817 27.9907 18.9142 27.9629C19.2901 27.8571 19.6604 27.7291 20.0248 27.5809C21.3793 
+                            27.0336 22.465 26.1804 23.2809 25.0197H23.2729C24.0251 23.959 23.9459 22.9591 23.0389 22.0177ZM18.0452 19.8246H18.0532L18.0452 19.8322V19.8246ZM21.778 24.0522H21.77C21.1549 24.9311 20.3363 25.5777 19.3149 25.9932C19.0622 26.0952 18.8058 26.1834 18.5439 
+                            26.2602C17.3581 26.204 16.192 25.9829 15.0462 25.5968H15.039C13.5489 25.0999 12.136 24.4284 10.8007 23.5836L10.8079 23.5912C9.27145 22.6001 7.92694 21.4222 6.77438 20.0556H6.78238C5.67222 18.7364 4.71802 17.3153 3.9186 15.7921L3.92619 15.799C3.06678 
+                            14.1399 2.39172 12.4009 1.90223 10.5829V10.576C1.75066 10.0276 1.80265 9.49552 2.06059 8.98181C2.06299 8.97685 2.06499 8.97227 2.06739 8.9673C2.45811 8.24086 3.00999 7.61754 3.72264 7.09849C3.9106 7.00453 4.10975 6.93006 4.31971 6.87468L4.33411 6.86742C4.74442 
+                            6.75169 5.10274 6.84565 5.40708 7.14891C5.41348 7.15311 5.41787 7.15845 5.42227 7.16342C6.44486 8.12055 7.45704 9.08723 8.45882 10.0638V10.0558C8.594 10.1914 8.66558 10.3503 8.67078 10.5321V10.547C8.67078 10.5554 8.67398 10.5626 8.67758 10.5688C8.00372 11.4453 
+                            7.28628 12.2985 6.52484 13.1296C6.41766 13.245 6.34688 13.3771 6.31328 13.5265C6.28249 13.6781 6.29249 13.827 6.34368 13.9741C6.59802 14.7005 6.91036 15.4262 7.27988 16.153C7.83616 17.2576 8.5712 18.2579 9.48621 19.1543C10.9447 20.5884 12.6951 21.5456 14.7359 
+                            22.0257C14.8799 22.0612 15.0234 22.0639 15.167 22.0333C15.3074 21.9993 15.4337 21.9367 15.5445 21.8458C16.29 21.24 17.0358 20.6331 17.78 20.0274V20.0346C17.868 19.9632 17.9616 19.8937 18.06 19.8253C18.088 19.8379 18.116 19.8479 18.1432 19.854C18.2035 19.8685 
+                            18.2571 19.8929 18.3015 19.9266C19.4669 20.9807 20.6022 22.0669 21.708 23.1871L21.7164 23.1944C21.9707 23.4633 21.9907 23.7497 21.778 24.0522Z" fill="#6BB431"/>
+                            <path d="M24.6889 11.8737C23.6643 5.8494 19.7592 2.10032 12.9718 0.626432C12.7283 0.572198 12.4987 0.608482 12.2848 0.734902C12.0736 0.862851 11.9396 1.04351 11.8844 1.27572C11.8269 1.50947 11.8648 1.72832 11.9976 1.93265C12.1316 2.1347 12.3204 2.26226 
+                            12.5643 2.31497C18.529 3.61164 21.9767 6.89399 22.9057 12.1624C22.9453 12.3958 23.0661 12.5806 23.268 12.7185C23.474 12.8583 23.7003 12.9091 23.9471 12.8698C24.1914 12.8319 24.3862 12.7162 24.5298 12.5233C24.6765 12.327 24.7293 12.1105 24.6889 11.8737Z" fill="#6BB431"/>
+                            <path d="M12.5942 6.67929C15.8247 7.29574 17.8147 9.2058 18.5621 12.4079C18.6177 12.6405 18.7509 12.8212 18.9625 12.9491C19.1736 13.0782 19.4004 13.1168 19.6423 13.0649C19.8859 13.0122 20.0746 12.885 20.2086 12.6826C20.3438 12.4809 20.3841 12.2647 20.3298 
+                            12.0333C19.406 8.07909 16.9433 5.72713 12.9421 4.97739C12.6974 4.93117 12.4698 4.97433 12.2623 5.10725C12.0539 5.24245 11.9251 5.42769 11.8764 5.66335C11.8276 5.89709 11.8732 6.11327 12.0123 6.31264C12.1551 6.5101 12.3487 6.63308 12.5942 6.67929Z" fill="#6BB431"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__logo">
+                    <a href="#" class="logo">
+                        <img src="./img/logo.png" alt="Логотип компании">
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__shops">
+                    <div class="shop-ofline"><a class="shop__link">Магазин в Москве</a></div>
+                    <div class="shop-online"><a class="shop__link">Интернет-магазин</a></div>
+                </div>
+                <div class="header__phone">
+                    <a href="tel:+74956691030" class="phone">8(495)669-10-30</a>
+                </div>
+            </div>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item hidden"><a href="#" class="nav__link">Магазин в Москве</a></li>
+                        <li class="nav__item hidden"><a href="#" class="nav__link">Интернет Магазин</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Наши решения</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Преимущества</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Проекты дизайнеров</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Как работаем</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="header__btn button" type='button'>
+                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 0C4.71141 0 0 4.71141 0 10.5C0 13.7019 1.44035 16.5702 3.70588 18.4973L3.70835 18.4998C3.93812 
+                        18.6974 4.17776 18.8827 4.42235 19.0581C4.48412 19.1026 4.54341 19.1446 4.60765 19.1866C6.28765 20.3305 8.31847 
+                        21 10.5 21C12.6815 21 14.7148 20.3305 16.3924 19.1866C16.4566 19.1446 16.5159 19.1026 16.5776 19.0581C16.8247 
+                        18.8827 17.0644 18.6974 17.2941 18.4973L17.2966 18.4948C19.5621 16.5702 21 13.6994 21 10.5C21 4.71141 16.2911 
+                        0 10.5 0ZM10.5 19.7647C9.36847 19.7647 8.28388 19.5596 7.27835 19.1866C7.16965 19.1446 7.06094 19.1026 6.95224 
+                        19.0581C6.25553 18.7691 5.60082 18.396 5.00294 17.9513C4.99553 17.9464 4.98812 17.9414 4.98071 17.934C5.30682 
+                        15.2732 7.65635 13.2028 10.5 13.2028C13.3436 13.2028 15.6956 15.2732 16.0218 17.934C16.0144 17.9389 16.0069 
+                        17.9464 15.9971 17.9513C15.3992 18.396 14.7445 18.7691 14.0478 19.0581C13.9391 19.1026 13.8304 19.1446 13.7216 
+                        19.1866C12.7186 19.5596 11.634 19.7647 10.5 19.7647ZM7.51553 8.98306C7.51553 7.33765 8.85459 5.99859 10.5 
+                        5.99859C12.1479 5.99859 13.4869 7.33765 13.4869 8.98306C13.4869 10.6285 12.1479 11.9675 10.5 11.9675C8.85459 
+                        11.9675 7.51553 10.6285 7.51553 8.98306ZM17.1236 16.9705C17.1162 16.9779 17.1064 16.9878 17.0989 16.9952C16.5678 
+                        14.8927 14.9965 13.1855 12.9508 12.4147C14.0206 11.6464 14.7222 10.3962 14.7222 8.98306C14.7222 6.65577 12.8273 
+                        4.76329 10.5 4.76329C8.17271 4.76329 6.28023 6.65577 6.28023 8.98306C6.28023 10.3962 6.98188 11.6464 8.05165 
+                        12.4147C6.006 13.1855 4.43471 14.8927 3.90106 16.9952L3.87635 16.9705C2.24329 15.3028 1.23529 13.0151 1.23529 
+                        10.5C1.23529 5.39082 5.39329 1.23529 10.5 1.23529C15.6092 1.23529 19.7647 5.39082 19.7647 10.5C19.7647 13.0151 
+                        18.7567 15.3028 17.1236 16.9705Z" fill="white"/>
+                        </svg>
+                        <span>Войти</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__box">
+                    <h1 class="hero__title">ВамСвет для дизайнеров</h1>
+                    <span class="hero__title--optional">для дизайнеров</span>
+                    <p class="hero__description">
+                        Добро пожаловать в команду «ВамСвет»! С нами, вы можете забыть <br>
+                        о сроках поставки, документообороте, постоянных подборках товаров. <br>
+                        С <span class="hero__description--green">ВамСвет.Дизайн</span> ваша работа станет проще, а доход — выше.
+                    </p>
+                    <button class="button hero__btn" type="button"> Начните сейчас</button>
+                </div>   
+            </div>
+        </section>
+        <section class="advantages section__bg">
+            <div class="container advantages__container">
+                <div class="advantages__image">
+                    <img class="advantages__img" src="./img/parts-of-head.png" alt="Голова с подсветкой" >
+                </div>
+            </img>
+        </section>
+        <section class="decisions section__bg">
+            <div class="container grid decisions__container">
+                <div class="grid__ceil decisions__image">
+                    <img src="./img/turtle.png" alt="Черепаха">
+                </div>
+                <div class="grid__ceil decisions__description description">
+                    <div class="description__top">
+                        <div class="description__title description__title--red">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.5 0C10.0277 0 7.61099 0.733112 5.55538 2.10663C3.49976 3.48015 1.89761 5.43238 0.951511 7.71646C0.00541611 10.0005 -0.242126 12.5139 0.24019 14.9386C0.722505 17.3634 1.91301 19.5907 3.66117 21.3388C5.40933 23.087 7.63661 24.2775 10.0614 24.7598C12.4861 25.2421 14.9995 24.9946 17.2835 24.0485C19.5676 23.1024 21.5199 21.5002 22.8934 19.4446C24.2669 17.389 25 14.9723 25 12.5C24.9961 9.18599 23.6779 6.00884 21.3345 3.66548C18.9912 1.32213 15.814 0.00390963 12.5 0ZM17.3205 15.7136L15.7136 17.3205L12.5 14.1068L9.28637 17.3205L7.67955 15.7136L10.8932 12.5L7.67955 9.28636L9.28637 7.67954L12.5 10.8932L15.7136 7.67954L17.3205 9.28636L14.1068 12.5L17.3205 15.7136Z" fill="#F73D34"/>
+                            </svg>  
+                            <span>Помеха</span>
+                        </div>
+                        <p class="description__text--bold">
+                            Долгая доставки и несвоевременная <br> отгрузка.
+                        </p>
+                    </div>
+                    <div class="description__bottom">
+                        <div class="description__title description__title--green">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.67047 3.64434C-1.22349 8.5443 -1.22349 16.4659 3.67047 21.325C8.56444 26.225 16.4763 26.225 21.3295 21.325C26.2235 16.4251 26.2235 8.50347 21.3295 3.64434C16.4356 -1.21478 8.56444 -1.21478 3.67047 3.64434ZM13.0098 15.9759L11.1308 17.8572L9.37717 16.1013L6.56314 13.2839L8.44209 11.4026L11.2561 14.2201L17.4144 8.05431L19.168 9.81013C16.7631 12.218 15.4147 13.568 13.0098 15.9759Z" fill="#6BB431"/>
+                            </svg>
+                            <span>Решение</span>
+                        </div>
+                        <p class="description__text--normal">
+                            Все бренды — на одном складе. Это существенно <br>
+                            экономит ваше время — теперь не нужно <br>
+                            объезжать несколько складов, собирая свои <br>
+                            заказы и простаивая в пробках. Вы можете разом <br>
+                            забрать его сами или заказать доставку, которая <br>
+                            за счет собственной логистической службы, стала<br>
+                            быстрее и надежнее! 
+                        </p>
+                    </div>
+                </div>
+                <div class="grid__ceil"></div>
+                <div class="grid__ceil"></div>
+                <div class="grid__ceil decisions__description description">
+                    <div class="description__top">
+                        <div class="description__title description__title--red">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.5 0C10.0277 0 7.61099 0.733112 5.55538 2.10663C3.49976 3.48015 1.89761 5.43238 0.951511 7.71646C0.00541611 10.0005 -0.242126 12.5139 0.24019 14.9386C0.722505 17.3634 1.91301 19.5907 3.66117 21.3388C5.40933 23.087 7.63661 24.2775 10.0614 24.7598C12.4861 25.2421 14.9995 24.9946 17.2835 24.0485C19.5676 23.1024 21.5199 21.5002 22.8934 19.4446C24.2669 17.389 25 14.9723 25 12.5C24.9961 9.18599 23.6779 6.00884 21.3345 3.66548C18.9912 1.32213 15.814 0.00390963 12.5 0ZM17.3205 15.7136L15.7136 17.3205L12.5 14.1068L9.28637 17.3205L7.67955 15.7136L10.8932 12.5L7.67955 9.28636L9.28637 7.67954L12.5 10.8932L15.7136 7.67954L17.3205 9.28636L14.1068 12.5L17.3205 15.7136Z" fill="#F73D34"/>
+                            </svg>  
+                            <span>Помеха</span>
+                        </div>
+                        <p class="description__text--bold">
+                            Огромный ассортимент светильников, <br>в котором некогда искать нужное.
+                        </p>
+                    </div>
+                    <div class="description__bottom">
+                        <div class="description__title description__title--green">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.67047 3.64434C-1.22349 8.5443 -1.22349 16.4659 3.67047 21.325C8.56444 26.225 16.4763 26.225 21.3295 21.325C26.2235 16.4251 26.2235 8.50347 21.3295 3.64434C16.4356 -1.21478 8.56444 -1.21478 3.67047 3.64434ZM13.0098 15.9759L11.1308 17.8572L9.37717 16.1013L6.56314 13.2839L8.44209 11.4026L11.2561 14.2201L17.4144 8.05431L19.168 9.81013C16.7631 12.218 15.4147 13.568 13.0098 15.9759Z" fill="#6BB431"/>
+                            </svg>
+                            <span>Решение</span>
+                        </div>
+                        <p class="description__text--normal">
+                            Наши менеджеры отлично знают ассортимент,<br>
+                            как визуально, так и технически. Они могут не <br>
+                            только сориентировать и направить вас в нужный <br>
+                            вам раздел каталога, но и сделать подбор товаров <br>
+                            и их аналогов по заданным параметрам. <br> 
+                            ВамСвет.Дизайн — это экономия времени <br>
+                            и всегда правильный выбор!
+                        </p>
+                    </div>
+                </div>
+                <div class="grid__ceil decisions__image">
+                    <img src="./img/luster.png" alt="Светильники">
+                </div>
+                <div class="grid__ceil decisions__image">
+                    <img src="./img/waiter.png" class="waiter" alt="Ждун">
+                </div>
+                <div class="grid__ceil decisions__description description">
+                    <div class="description__top">
+                        <div class="description__title description__title--red">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.5 0C10.0277 0 7.61099 0.733112 5.55538 2.10663C3.49976 3.48015 1.89761 5.43238 0.951511 7.71646C0.00541611 10.0005 -0.242126 12.5139 0.24019 14.9386C0.722505 17.3634 1.91301 19.5907 3.66117 21.3388C5.40933 23.087 7.63661 24.2775 10.0614 24.7598C12.4861 25.2421 14.9995 24.9946 17.2835 24.0485C19.5676 23.1024 21.5199 21.5002 22.8934 19.4446C24.2669 17.389 25 14.9723 25 12.5C24.9961 9.18599 23.6779 6.00884 21.3345 3.66548C18.9912 1.32213 15.814 0.00390963 12.5 0ZM17.3205 15.7136L15.7136 17.3205L12.5 14.1068L9.28637 17.3205L7.67955 15.7136L10.8932 12.5L7.67955 9.28636L9.28637 7.67954L12.5 10.8932L15.7136 7.67954L17.3205 9.28636L14.1068 12.5L17.3205 15.7136Z" fill="#F73D34"/>
+                            </svg>  
+                            <span>Помеха</span>
+                        </div>
+                        <p class="description__text--bold">
+                            Долгая обратная связь по вопросам, <br>
+                            проблемам и их решениям.
+                        </p>
+                    </div>
+                    <div class="description__bottom">
+                        <div class="description__title description__title--green">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.67047 3.64434C-1.22349 8.5443 -1.22349 16.4659 3.67047 21.325C8.56444 26.225 16.4763 26.225 21.3295 21.325C26.2235 16.4251 26.2235 8.50347 21.3295 3.64434C16.4356 -1.21478 8.56444 -1.21478 3.67047 3.64434ZM13.0098 15.9759L11.1308 17.8572L9.37717 16.1013L6.56314 13.2839L8.44209 11.4026L11.2561 14.2201L17.4144 8.05431L19.168 9.81013C16.7631 12.218 15.4147 13.568 13.0098 15.9759Z" fill="#6BB431"/>
+                            </svg>
+                            <span>Решение</span>
+                        </div>
+                        <p class="description__text--normal">
+                            С ВамСвет.Дизайн вам не придется ждать <br>
+                            решения или ответа по несколько дней, <br>
+                            постоянно напоминая о себе. Мы контролируем <br>
+                            сроки обращений и принимаем решения <br>
+                            максимально быстро, возвращая обратную связь <br>
+                            через вашего персонального менеджера или <br>
+                            руководителя отдела.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid__ceil"></div>
+            </div>
+        </section>
+        <section class="invitation section__bg">
+            <div class="container invitation__container">
+                <div class="invitation__box">
+                    <div class="invitation__title">
+                        Подключайтесь к программе<br>
+                        <span>Вамсвет.Дизайн</span> для получения <br>
+                        доступа к особым условиям<br>
+                        сотрудничества
+                    </div>
+                    <form class="invitation__form form">
+                        <div class="form__name">
+                            <input class="form__input input" type="text" name="firstname" id="firstname" placeholder=" ">
+                            <label class="input__label" for="firstname"> Имя </label>
+                        </div>
+                        <div class="form__password">
+                            <input class="form__input input" type="password" name="password" id="password" placeholder=" ">
+                            <label class="input__label" for="password"> Пароль </label>
+                            <span class="show__password">
+                                <svg width="22" height="18" viewBox="0 0 22 18" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.56268 11.6372C8.56389 11.6362 8.56462 11.6349 8.56534 11.6337L19.9307 0.929299C20.1569 
+                                    0.715772 20.1569 0.368648 19.9304 0.154893C19.711 -0.0515548 19.3282 -0.0517831 19.1085 0.155121L15.8021 
+                                    3.26987C14.1604 2.41577 12.5172 1.97798 10.9109 1.97798C4.82878 1.97798 0.292347 8.08051 0.102015 8.34017C-0.0340051 
+                                    8.52606 -0.0340051 8.77567 0.102015 8.96157C0.185422 9.0753 2.05455 11.6054 4.99463 13.4491L1.89113 16.3724C1.66492 
+                                    16.5862 1.66492 16.9329 1.89137 17.1468C2.00121 17.2498 2.14741 17.3069 2.3021 17.3069C2.45752 17.3069 2.60324 
+                                    17.2498 2.71307 17.1464L8.55904 11.6401C8.56025 11.6392 8.56146 11.6385 8.56268 11.6372ZM5.83499 12.6575C3.56605 
+                                    11.2818 1.89501 9.37789 1.30389 8.65121C2.25482 7.48652 6.1742 3.07256 10.9109 3.07256C12.2243 3.07256 13.5787 
+                                    3.41101 14.9462 4.07648L13.6408 5.3058C12.8605 4.73853 11.9115 4.42772 10.9109 4.42772C8.43878 4.42772 6.42708 
+                                    6.32228 6.42708 8.65075C6.42708 9.59415 6.75707 10.4878 7.3591 11.222L5.83499 12.6575ZM7.5892 8.65075C7.5892 6.92587 
+                                    9.07936 5.5223 10.9107 5.5223C11.6005 5.5223 12.257 5.72144 12.8106 6.08729L8.18856 10.4405C7.80062 9.91936 7.5892 
+                                    9.30115 7.5892 8.65075Z"/>
+                                    <path d="M10.911 11.7793C10.5805 11.7793 10.2582 11.7325 9.95081 11.6451L9.05273 12.4907C9.62882 12.7396 
+                                    10.2582 12.8744 10.911 12.8744C13.3828 12.8744 15.3948 10.9796 15.3948 8.65112C15.3948 8.03634 15.252 
+                                    7.44326 14.9877 6.90088L14.0894 7.74699C14.1827 8.03634 14.2324 8.33985 14.2324 8.65112C14.2324 10.376 
+                                    12.7423 11.7793 10.911 11.7793Z" />
+                                    <path d="M21.7195 8.33953C21.6436 8.23631 20.0996 6.15585 17.6425 4.3999L16.8108 5.18322C18.6579 6.47899 
+                                    20.0009 8.01502 20.5181 8.65034C19.5671 9.81504 15.6485 14.229 10.9108 14.229C9.90557 14.229 8.8756 14.0289 
+                                    7.83471 13.6375L6.95361 14.4676C8.28278 15.0315 9.6088 15.3236 10.9108 15.3236C16.9888 15.3236 21.5294 9.22127 
+                                    21.7197 8.96139C21.8557 8.77572 21.8557 8.52611 21.7195 8.33953Z" />
+                                    </svg>
+                            </span>
+                        </div>
+                        <button class="button form__button" type='button'>Подключиться</button>
+                        <div class="form__checkbox">
+                            <label for="agree">
+                                <input class="checkbox" type="checkbox" name="agree" id="agree"> 
+                                <span class="checkbox-custom">
+                                    <!-- <svg width="14" height="12" viewBox="0 0 14 12" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.4795 0.331069C12.8937 -0.1667 12.0508 -0.0947878 11.5965 0.490344L5.60727 8.21444L2.48113 3.96507C2.0148 3.33173 1.14577 3.21326 0.540269 3.70049C-0.0657649 4.18801 -0.178989 5.09734 0.287335 5.73156L4.48335 11.4352C4.94967 12.0685 5.81898 12.1873 6.42474 11.6997C6.59745 11.5607 6.72518 11.3852 6.81574 11.1934L13.7188 2.29163C14.1729 1.70566 14.0656 0.828276 13.4795 0.331069Z" fill="white"/>
+                                    </svg> -->
+                                </span>
+                                <span class="checkbox-text">Я ознакомился и принимаю условия
+                                    “Политики конфиденциальности”
+                                    и “Информированного согласия”
+                                </span>
+                            </label>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="cooperation section__bg">
+            <div class="container cooperation__container">
+                <h2 class="cooperation__title title">Как мы работаем</h2>
+                <ul class="cooperation__list">
+                    <li class="cooperation__item">
+                        <div class="cooperation__item-img">
+                            <img src="./img/icon-request.svg" alt="Иконка заявка">
+                        </div>
+                        <div class="cooperation__item-text">
+                            Оставьте заявку
+                        </div>
+                    </li>
+                    <li class="cooperation__item">
+                        <div class="cooperation__item-img">
+                            <img src="./img/icon-manager.svg" alt="Иконка менеджер">
+                        </div>
+                        <div class="cooperation__item-text">
+                            Менеджер свяжется с вами <br>
+                            и обсудит условия 
+                        </div>
+                    </li>
+                    <li class="cooperation__item">
+                        <div class="cooperation__item-img">
+                            <img src="./img/icon-contract.svg" alt="Иконка договор">
+                        </div>
+                        <div class="cooperation__item-text">
+                            Заключаем договор
+                        </div>
+                    </li>
+                    <li class="cooperation__item">
+                        <div class="cooperation__item-img">
+                            <img src="./img/icon-lamp.svg" alt="Иконка лампа">
+                        </div>
+                        <div class="cooperation__item-text">
+                            Делаем подборки <br>
+                            для вашего проекта
+                        </div>
+                    </li>
+                    <li class="cooperation__item">
+                        <div class="cooperation__item-img">
+                            <img src="./img/icon-bill.svg" alt="Иконка счет">
+                        </div>
+                        <div class="cooperation__item-text">
+                            Выставляем счет
+                        </div>
+                    </li>
+                    <li class="cooperation__item">
+                        <div class="cooperation__item-img">
+                            <img src="./img/icon-track.svg" alt="Иконка грузовик">
+                        </div>
+                        <div class="cooperation__item-text">
+                            Доставляем товар
+                        </div>
+                    </li>
+                </ul> 
+            </div>
+        </section>
+        <section class="projects section__bg">
+            <div class="container projects__container">
+                <div class="projects__title title">Проекты дизайнеров</div>
+                <div class="project__slider slider">
+                    <button class="slider__button btn-prev">
+                        <svg width="18" height="7" viewBox="0 0 18 7"  xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 0L0 7H18V4.5H6L10.5 0H7Z" />
+                        </svg>
+                    </button>
+                    <div class="slider-track">
+                        <div class="slider__item slider__item--active">
+                            <div class="projects__block block">
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="projects__block block">
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                                <div class="block__grid">
+                                    <div class="block__help">
+                                        <img class="block__image" src="/img/photo-manager.jpg" alt="Фото менеджера">
+                                        <p class="block__name">Юлия Никольская</p>
+                                        <a class="block__link" href="#">Студия Z-design</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider__button btn-next">
+                        <svg width="18" height="7" viewBox="0 0 18 7"  xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 0L18 7H0V4.5H12L7.5 0H11Z" />
+                        </svg>
+                    </button>
+                </div>
+                <span class="projects__direction">Если вы хотите, чтобы мы опубликовали ваш проект у себя на сайте, — расскажите нам о нем и пришлите фото!</span>
+                <button class="projects__button button" type="button"> Поделиться проектом</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <ul class="footer__list">
+                <li class="footer__item item-list">
+                    <div class="item-list__title footer__title"><a href="#">Магазин на Варшавке</a></div>
+                    <div class="item-list__item"><a href="#">Каталог</a</div>
+                    <div class="item-list__item"><a href="#">Фото магазина</a</div>
+                    <div class="item-list__item"><a href="#">Адрес</a></div>
+                </li>
+                <li class="footer__item item-list">
+                    <div class="item-list__title footer__title"><a href="#">Интернет-магазин</a></div>
+                    <div class="item-list__item"><a href="#">Люстры</a</div>
+                    <div class="item-list__item"><a href="#">Светильники</a></div>
+                </li>
+                <li class="footer__item item-list">
+                    <div class="item-top">
+                        <div class="item-list__title footer__title"><a href="#">Помощь</a></div>
+                        <div class="item-list__item"><a href="#">Доставка</a></div>
+                    </div>
+                    <div class="item-bottom">
+                        <div class="item-list__title footer__title"><a href="#">Услуги</a></div>
+                        <div class="item-list__item"><a href="#">Установка светильников</a</div>
+                        <div class="item-list__item"><a href="#">Подбор по фото</a></div>
+                    </div>
+                </li>
+                <li class="footer__item item-list">
+                    <div class="item-list__title footer__title"><a href="#">О компании</a></div>
+                    <div class="item-list__item"><a href="#">Контакты</a></div>
+                    <div class="item-list__item"><a href="#">Реквизиты</a></div>
+                    <div class="item-list__item"><a href="#">Новости</a></div>
+                </li>
+                <li class="footer__item">
+                    <div class="item-list__item"><a class="footer__title" href="tel:84956691030">8 (495) 669-10-30</a>&nbsp;г. Москва</div>
+                    <div class="item-list__item"><a class="footer__title" href="tel:88001007580">8 (800) 100-75-80</a>&nbsp;Бесплатно по России</div>
+                    <div class="item-list__item"><a href="mailto:info@vamsvet.ru">info@vamsvet.ru</a></div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/burger.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/button.js"></script>
+</body>  
+</html>
